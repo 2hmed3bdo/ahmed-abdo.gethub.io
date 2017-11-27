@@ -1,0 +1,183 @@
+/* links Color */
+a,
+.nav-button,
+.navigation ul.navi li:hover a,
+.navigation ul li a,
+.navigation ul li.active a,
+.portfolio ul li.active,
+.portfolio ul li:hover,
+.button-toggle:hover,
+.portfolio,
+.nav-button
+{
+    color: #FFF;
+}
+
+
+
+/******************** Color 1 ********************/
+
+/* Background Color 1 */
+.navigation ul li.active,
+.home,
+.portfolio,
+.contact,
+.contact ul li a:hover,
+.navigation button:hover,
+.navigation .color-box,
+.navigation ul.navi li:hover
+{
+    background-color: #8D99AE;
+}
+
+/* MAin Color 1*/
+.navigation ul li:hover,
+.navigation ul li:hover a,
+.contact button.form-control,
+#about .who-im,
+#about .skills h3
+{
+    color: #8D99AE;
+
+}    
+/******************** End Color 1 *******************/
+
+
+
+
+
+
+
+
+/******************** Color 2 *******************/
+
+/* background Color 2 */
+.navigation,
+.nav-button:hover,
+.portfolio ul li.active,
+.portfolio ul li:hover,
+.contact button.form-control,
+.contact ul li a,
+.button-toggl
+{
+    background-color: #2B2D42;
+}
+
+/* MAin Color 2*/
+.contact .form-control,
+.navigation ul li.active,
+.portfolio ul li,
+.contact h2,
+.contact ul li a:hover,
+.home .tito,
+.footer a:hover,
+.contact .footer,
+.contact ::-webkit-input-placeholder
+{
+    color: #2B2D42
+}
+.contact .form-control,
+.navigation ul li.active,
+.portfolio ul li,
+.contact h2,
+.contact ul li a:hover,
+.home .tito,
+.footer a:hover,
+.contact .footer,
+.contact :-ms-input-placeholder
+{
+    color: #2B2D42
+}
+.contact .form-control,
+.navigation ul li.active,
+.portfolio ul li,
+.contact h2,
+.contact ul li a:hover,
+.home .tito,
+.footer a:hover,
+.contact .footer,
+.contact ::placeholder
+{
+    color: #2B2D42
+}
+
+/* border Color 2*/
+.portfolio ul li 
+{
+    border: 2px solid #2B2D42;
+}
+.contact .form-control,
+.contact ul li a,
+.contact ul li a:hover,
+#home .avatar img,
+.portfolio .work img
+{
+    border: 2px solid #2B2D42;    
+}
+/******************** End Color 2 *******************/
+
+
+
+
+
+
+/******************** Color 3 *******************/
+/* Color 3 B-G */
+{
+    background-color: #2B2D42;
+}
+/******************** End Color 3 *******************/
+
+
+
+
+
+
+/* Skills Color */
+#about .skills 
+{
+    background-color: rgba(28,49,68,0.1);
+}
+#about .skills .progress{
+    background-color: rgba(28,49,68,0)
+}
+/* Progress Color  */
+#about .skills .progress-bar
+{
+    background-color: rgba(0,0,0,0.4);
+
+}
+/* Skills li Color */
+#about .who-im .heading h2,
+#about .skills ul li,
+.portfolio .footer,
+.about .footer,
+#about .skills .progress-bar
+{
+    color: #70C1a2;
+}
+
+
+
+
+
+
+/* Gradient */
+.gradient{
+    background: -webkit-gradient(linear,left bottom, left top,color-stop(5%, #2B2D42), to(rgba(0,0,0,0))),
+    -webkit-gradient(linear, left top, right top, color-stop(30%, #2B2D42), color-stop(70%, rgba(0,0,0,0)));
+    background: linear-gradient(to top,#2B2D42 5%, rgba(0,0,0,0) 100%),
+    linear-gradient(to right, #2B2D42 30%, rgba(0,0,0,0) 70%);
+}
+
+
+
+
+
+
+/* Comming Soon */
+.portfolio .coming h3,
+.portfolio .not-yet h3
+{
+    color: #DDD;
+}

@@ -1,0 +1,150 @@
+/* links Color */
+a,
+.nav-button,
+.navigation ul li a,
+.navigation ul li.active a,
+.portfolio ul li.active,
+.portfolio ul li:hover,
+.button-toggle:hover,
+.portfolio,
+.nav-button
+{
+    color: #FFF;
+}
+
+
+/* Background Color 1 */
+.navigation ul li.active,
+.home,
+.portfolio,
+.contact,
+.contact ul li a:hover,
+.navigation button:hover,
+.navigation .color-box
+{
+    background-color: #1c3144;
+}
+
+
+
+
+/* background Color 2 */
+.navigation,
+.nav-button:hover,
+.portfolio ul li.active,
+.portfolio ul li:hover,
+.contact button.form-control,
+.contact ul li a,
+.button-toggl
+{
+    background-color: #00a8e8;
+}
+
+
+
+
+/* MAin Color 1*/
+.navigation ul li:hover,
+.navigation ul li:hover a,
+.contact button.form-control
+{
+    color: #1c3144;
+
+}
+
+
+/* MAin Color 2*/
+.navigation ul li.active,
+#about .who-im,
+.portfolio ul li,
+.contact h2,
+.contact ul li a:hover,
+.footer a,
+.contact .footer,
+.contact .form-control,
+#about .skills h3
+
+{
+    color: #00a8e8
+}
+/* border Color 2*/
+.portfolio ul li 
+{
+    border: 2px solid #00a8e8;
+}
+.contact .form-control,
+.contact ul li a,
+.contact ul li a:hover,
+#home .avatar img,
+.portfolio .work img
+{
+    border: 2px solid #00a8e8;    
+}
+
+
+
+
+/* Comming Soon */
+.portfolio .coming h3,
+.portfolio .not-yet h3
+{
+    color: #DDD;
+}
+
+
+
+
+/* Color 3 B-G */
+.navigation ul li:hover
+{
+    background-color: #E55934;
+}
+
+
+
+/* Color 3  text */
+.home .tito,
+#about .who-im .heading h2,
+.footer a:hover
+{
+    color: #DD574B;
+}
+
+
+
+
+/* Skills Color */
+#about .skills 
+{
+    background-color: rgba(28,49,68,0.1);
+}
+#about .skills .progress{
+    background-color: rgba(28,49,68,0)
+}
+/* Progress Color  */
+#about .skills .progress-bar
+{
+    background-color: rgba(0,0,0,0.4);
+
+}
+/* Skills li Color */
+#about .skills ul li,
+.portfolio .footer,
+.about .footer,
+#about .skills .progress-bar
+{
+    color: #70C1a2;
+}
+
+
+
+
+
+
+/* Gradient */
+.gradient{
+    background: -webkit-gradient(linear, left bottom, left top, from(#1c3144), color-stop(90%, rgba(0,0,0,0))),
+    -webkit-gradient(linear, left top, right top, color-stop(30%, #1c3144), color-stop(65%, rgba(0,0,0,0)));
+    background: linear-gradient(to top, #1c3144 0%, rgba(0,0,0,0) 90%),
+    linear-gradient(to right, #1c3144 30%, rgba(0,0,0,0) 65%);
+}

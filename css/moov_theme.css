@@ -1,0 +1,161 @@
+/* links Color */
+a,
+.nav-button,
+.navigation ul li a,
+.navigation ul li.active a,
+.portfolio ul li.active,
+.portfolio ul li:hover,
+.button-toggle:hover,
+.portfolio,
+.nav-button,
+.navigation ul li:hover a
+{
+    color: #FFFFFF;
+}
+
+
+
+
+
+/******************** Color 1 ********************/
+
+/* Background Color 1 */
+.navigation ul li.active,
+.navigation ul li:hover,
+.home,
+.portfolio,
+.contact,
+.contact ul li a:hover,
+.navigation button:hover,
+.navigation .color-box
+{
+    background-color: #493382;
+}
+
+/* MAin Color 1*/
+.navigation ul li:hover,
+.contact button.form-control
+/*#about .skills h3*/
+{
+    color: #5E42A6;
+
+}    
+/******************** End Color 1 *******************/
+
+
+
+
+
+
+
+
+/******************** Color 2 *******************/
+
+/* background Color 2 */
+.navigation,
+.nav-button:hover,
+.portfolio ul li.active,
+.portfolio ul li:hover,
+.contact button.form-control,
+.contact ul li a,
+.button-toggl
+{
+    background-color: #312450
+}
+
+/* MAin Color 2*/
+.navigation ul li.active,
+.contact ul li a:hover
+{
+    color: #312450
+}
+
+/* border Color 2*/
+.contact .form-control,
+.portfolio ul li,
+.portfolio .work img,
+#home .avatar img
+
+{
+    border: 2px solid #312450;
+}
+
+.contact ul li a,
+.contact ul li a:hover
+{
+    border: 1px solid #312450;    
+}
+/* Color 3  text */
+.contact button.form-control,
+#about .who-im,
+.home .tito,
+.footer a:hover
+{
+    color: #FFFFFF;
+}
+/******************** End Color 2 *******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills Color */
+#about .skills 
+{
+    background-color: rgba(28,49,68,0.1);
+}
+#about .skills .progress{
+    background-color: rgba(28,49,68,0)
+}
+/* Progress Color  */
+#about .skills .progress-bar
+{
+    background-color: rgba(0,0,0,0.4);
+
+}
+/* Skills li Color */
+#about .who-im .heading h2,
+#about .skills ul li,
+.portfolio .footer,
+.contact .form-control,
+.about .footer,
+.contact .footer,
+.portfolio ul li,
+#about .skills .progress-bar
+{
+    color: #B3A6Dd;
+    text-shadow: 1px 2px 7px  #000;
+}
+
+
+
+
+
+
+/* Gradient */
+.gradient{
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #5E42A0), color-stop(85%, rgba(0,0,0,0))),
+    -webkit-gradient(linear, left top, right top, color-stop(30%, #5E42A0), color-stop(60%, rgba(0,0,0,0)));
+    background: linear-gradient(to top, #5E42A0 5%, rgba(0,0,0,0) 85%),
+    linear-gradient(to right, #5E42A0 30%, rgba(0,0,0,0) 60%);
+}
+
+
+
+
+
+
+/* Comming Soon */
+.portfolio .coming h3,
+.portfolio .not-yet h3
+{
+    color: #ccc;
+}

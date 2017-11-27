@@ -1,0 +1,389 @@
+/* Body Style*/
+body{
+    position: relative;
+    font-family:monospace;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+#left,#right{
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #000
+}
+/* Start Global Style */
+/* Container fluid Style*/
+.container-fluid{padding: 0;margin: 0}
+
+/* Outline */
+a,
+li,
+button{outline: 0}
+
+/* Links */
+a{text-decoration: none;}
+/* End Global Style */
+
+
+
+/* Start Navigation Button */
+.nav-button{
+    background:none;
+    border: none;
+    color: #FFF;
+    position: absolute;
+    left: 30px ;
+    top: 20px;
+    padding: 5px 8px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index: 99999999;
+    display: none;
+}
+/* End Navigation Button */
+
+/* Start Nav-Bar */
+.navigation{
+    width: 100%;
+    height: 100vh;
+}
+/* nav-list */
+.navigation ul.navi{
+    padding-top: 80px;
+}
+.navigation ul.navi li{
+    padding:8px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.navigation ul.navi li a{
+    font-size: 18px;
+    text-decoration: none
+}
+.navigation ul.navi li:hover a{
+    font-weight: 900
+}
+.navigation .color-box{
+    background-color: #1c3144;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 99999999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+.navigation .color-box h5{
+    position: absolute;
+    top: -30px;
+    font-size: 18px;
+    left: 15px;
+    color: #FFF;
+    background:none;
+}
+.navigation .color-box ul{padding-top: 9px;padding-left: -5px; margin: auto}
+.navigation .color-box li{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    outline: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    display: inline-block;}
+.navigation .color-box ul li:first-of-type{
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #00a8e8) , color-stop(50%, #1c3144));
+    background: linear-gradient(to right, #00a8e8 50% , #1c3144 50%);
+}
+.navigation .color-box ul li:nth-of-type(2){
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #00a8e8) , color-stop(50%, #1c3144));
+    background: linear-gradient(to right, #00a8e8 50% , #1c3144 50%);
+
+    border: 1px solid #CCC;
+}
+.navigation .color-box ul li:nth-of-type(3){
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #2B2D42) , color-stop(50%, #8D99AE));
+    background: linear-gradient(to right, #2B2D42 50% , #8D99AE 50%);
+}
+.navigation .color-box ul li:nth-of-type(4){
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #F2C927) , color-stop(50%, #032E3A));
+    background: linear-gradient(to right, #F2C927 50% , #032E3A 50%);
+}
+.navigation .color-box ul li:nth-of-type(5){background: -webkit-gradient(linear, left top, right top, color-stop(50%, #312450) , color-stop(50%, #5E42A6));background: linear-gradient(to right, #312450 50% , #5E42A6 50%);
+}
+/* End Nav-Bar */
+
+
+
+
+
+/****** Start Home **************************************************************************/
+#home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: auto
+}
+#home .avatar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px
+}
+#home .avatar img {
+    border-radius: 50%;
+    padding: 5px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#home .avatar img:hover {border: none;}
+#home .tito {
+    text-align: center;
+    margin: auto;
+    padding-top: 320px;
+}
+#home .tito h2,
+#home .tito p{
+    margin: 0;
+    font-weight: bold
+}
+#home .tito p{
+    font-size: 20px
+}
+/****** Start Home **************************************************************************/
+
+
+/****** Start About **************************************************************************/
+#about{
+    background: url('../images/grinta.jpg') no-repeat center left;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    display: none;
+}
+#about .who-im{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 0px 5px;
+    overflow: auto;
+}
+#about ul{
+    list-style:square
+}
+#about .who-im .heading h2{
+    color: #D13917;
+    letter-spacing: 1px;
+    padding-left: 80px;
+}
+#about .heading h3{
+    padding-left: 80px;
+    text-align: left;
+    text-transform: uppercase
+}
+#about .skills{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 20px;
+}
+#about .skills h3{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about .skills ul{
+    padding-left: 25px
+}
+#about .skills.other-skills ul{padding-left: 0}
+#about .skills ul li{
+    padding-top: 5px;
+    font-size: 15px;
+    outline: 0;
+}
+#about .skills p{
+    color: #A0BEb0;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+#about .skills h5{
+    text-transform: uppercase;
+    color: #A0BEb0;
+    margin-bottom: 20px;
+    font-weight: 999;
+    font-size: 16px
+}
+#about .skills .progress-bar{
+    text-align: left;
+    padding-left: 40px;
+    letter-spacing: 1px
+}
+#about .skills.other-skills ul li{
+    display: inline-block;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+#about .footer{
+    text-align: center;
+    margin-bottom: 15px;
+}
+/****** End About **************************************************************************/
+
+
+
+/****** Start Portfolio **************************************************************************/
+.portfolio{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    padding-top: 70px;
+    overflow-x: hidden;
+
+}
+.portfolio ul{
+    padding-bottom: 40px;
+}
+.portfolio ul li{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 0px 8px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.portfolio .mix{
+    display: none;
+    height: 280px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.portfolio .mix > *{
+    margin: auto;
+}
+.portfolio .work{
+    cursor: pointer;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    margin: auto;
+}
+.portfolio .work img{
+    
+    height: 280px;
+}
+.portfolio .work:hover{
+    -webkit-transform: scale(1.6) rotate(-10deg);
+    transform: scale(1.2) rotate(-10deg);
+}
+.portfolio .not-yet{
+    position: relative;
+}
+.portfolio .coming h3,
+.portfolio .not-yet h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #DDD;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.portfolio .footer{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-family: serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+/****** End Portfolio **************************************************************************/
+
+
+
+
+/****** Start Contact Me **************************************************************************/
+.contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    color: #FFF;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: none;
+    overflow: auto
+}
+.contact h2{
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.contact h3{font-size: 16px;margin: 0}
+.contact form{
+    width: 90%;
+    margin: 25vh auto 0;
+}
+.contact .form-control{
+    background: none;
+    border-radius: 0;
+    outline: 0;
+    position: relative;
+}
+.contact button.form-control {
+    text-align: left;
+    font-weight: bold;
+}
+.contact textarea{
+    height: 168px;
+    resize: none;
+}
+.contact .social{
+    text-align: center;
+    margin-top: 40px;
+}
+.contact ul li{
+    display: inline-block;
+    margin: 2px;
+
+}
+.contact ul li a{
+    padding: 10px 15px 8px ;
+    outline: 0;
+
+}
+
+.contact .footer{
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    left: -10px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.footer a{
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+/****** End Contact Me **************************************************************************/

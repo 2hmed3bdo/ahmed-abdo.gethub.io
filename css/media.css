@@ -1,0 +1,194 @@
+/*----------- Smart Phones And Taplets -----------------------------------------------------------------------------------*/
+@media  (max-width:767px)
+{
+    /* start Left */
+    #left{
+        position: fixed;
+        width: 0%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+        opacity: 0.9;
+        }
+    /* Start right */
+    #right{width: 100%;}
+    
+/****** Start navigation *****************************************************/
+    .nav-button{display: block; top: 25px}
+    .navigation .color-box{display: none}
+    .navigation ul{display: none}
+    .navigation ul.navi li a{font-size: 16px}
+    .navigation .color-box ul{padding-left: 16px;padding-top: 11px}
+    .navigation .color-box h5{left: 8px; font-size: 17px}
+    .navigation .color-box li{width: 20px;height: 20px}
+/****** End navigation *******************************************************/
+    
+    
+/****** Start Home ***********************************************************/
+    #home{padding: 15px}
+    #home .avatar{    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);}
+    #home .tito h2{font-size: 28px}
+    #home .tito p{font-size: 16px}
+/****** End Home *************************************************************/
+    
+
+/****** Start About Me *******************************************************/
+    #about{
+    background: url('../images/grinta.jpg') no-repeat center;
+    background-size: cover;padding-left: 0}
+    
+    #about .who-im{
+    padding: 80px 20px 0px 0}
+    
+    #about .who-im .heading h2{padding-left: 20px;font-size:26px;text-shadow: 0 3px 10px #1c3144;}
+    #about .heading h3{padding-left: 20px;font-size: 28px}
+    
+    #about .skills{text-align: left;margin-top: 70px;
+    background-color: rgba(28,49,68,0);margin-left: 0px;
+    width: 350px;margin-right: 0px;}
+    
+    #about .skills.work-exp{margin-bottom: 90px}
+    
+    #about .skills h3{font-size: 22px}
+    #about .skills p{font-size: 14px }
+    #about .skills ul li{font-size: 16px}
+    #about .skills.other-skills ul li{display: inline-block;padding-bottom: 20px}
+    #about .skills.other-skills ul{padding-left: 0}
+/****** End About Me ********************************************************/
+    
+    
+/****** Start Portfolio *****************************************************/
+    .portfolio .mix{height: auto}
+    .portfolio .work img{height: auto}
+    .portfolio ul {width: 97%;margin: 30px 0}
+    .portfolio ul li{padding: 12px;width: 100%;margin-bottom: 20px}
+/****** End Portfolio *******************************************************/
+
+    
+/****** Start Contact *******************************************************/
+    .contact{padding-bottom: 30px}
+    .contact form{margin: 12vh auto 0}
+    .contact h2{padding-top: 30px;font-size: 34px}
+    .contact .footer{position: static;width: 90%;padding-top: 50px; margin-left: 20px;height: 0;margin-bottom: 15px}
+    .contact ul li a{padding: 7px ;outline: 0}
+/****** End Contact *********************************************************/
+}
+
+
+
+
+
+
+
+
+
+
+/* Start Less Than 320px Screens */
+@media(max-width:320px) 
+{
+    /* Start Navigation */
+    .nav-button{top: 15px;left: 10px}/* Nav-button */
+    .navigation ul.navi li{padding-left: 20px}
+    .navigation ul.navi li a{font-size: 14px}
+    .navigation .color-box ul{padding-left: 18px;padding-top: 11px}
+    .navigation .color-box h5{left: 8px; font-size: 16px}
+    .navigation .color-box li{width: 18px;height: 18px}
+    /* End Navigation */
+    
+    /* Start About Me */
+    #about .who-im .heading h3{font-size: 24px;padding-left: 10px}
+    #about .who-im .heading h2{padding-left: 10px}
+    #about .skills{text-align: left;margin-top: 50px;margin-left: 0px}
+    #about .skills h3{text-align: left;margin-bottom: 10px;font-size: 18px}
+    #about .skills ul{padding-left: 15px}
+    #about .skills ul li{font-size: 12px}
+    #about .skills p{letter-spacing: 0px;font-size: 12px}
+    #about .skills h5{display: none}
+    #about .skills .progress-bar{text-align: left;padding-left: 15px;letter-spacing: 0.5px}
+    #about .skills.other-skills ul li{display: inline-block;padding-right: 18px;padding-bottom: 20px}
+    #about .footer{margin-left: 10px}
+    #about .skills{width: 100%}
+    /* End About Me */
+    
+    
+    /* Start Home */
+    #home .tito h2{font-size: 18px}
+    #home .tito p{font-size: 12px}
+    /* End Home */
+    
+    /* Start Portfolio */
+    .portfolio ul {width: 95%;margin: 0 auto 20px;}
+    .portfolio ul li{padding: 5px;width: 100%}
+    .portfolio .footer{font-size: 14px}
+    
+    
+    /* Start Contact */
+    .contact h2{padding-top: 20px;font-size:24px}
+    .contact form{margin: 10vh auto 40px}
+    .contact input,.contact button{height: 40px;font-size: 12px}
+    .contact textarea{height: 80px;font-size: 12px}
+    .contact .social{margin-top: 0px;}
+    .contact ul li a{outline: 0;font-size: 12px}
+    .contact .footer{width: 90%;margin-left: 10px;font-size: 12px}
+    /* End Contact */
+
+}
+/* Start Less Than 320px Screens */
+
+
+
+
+
+
+
+/*----------------------------- Small Screen --------------------------------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px)
+{
+
+/****** Start navigation ****************************************************/
+    .navigation ul li a{font-size: 15px}
+/****** End navigation ******************************************************/
+    
+/****** Start About Me ******************************************************/
+    #about{
+    background: url('../images/grinta.jpg') no-repeat left;
+    background-size: cover;}
+    
+
+    
+     #about .skills{text-align: left;margin-top: 70px;
+    background-color: rgba(28,49,68,0);
+    margin-left: 30px;width: 450px;margin-right: 0px}
+    
+    #about .skills.work-exp{margin-bottom: 90px}
+    
+    #about .who-im .heading h2{padding-left: 60px;font-size:30px;text-shadow: 0 3px 10px #1c3144}
+    #about .heading h3{padding-left: 60px;font-size: 28px}
+/****** End About Me *******************************************************/
+
+    
+/****** Start Contact ******************************************************/
+    .contact{padding-bottom: 30px}
+    .contact form{margin: 15vh auto 40px}
+    .contact .social{margin-top: 0px; padding-top: 0}
+    .contact .footer{position: static;width: 90%;padding-top: 50px; margin-left: 20px;height: 0;margin-bottom: 15px}
+/****** End Contact ******************************************************/
+}
+
+
+
+
+/*----------------- Medium Screen ---------------------------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px)
+{
+
+}
+
+
+/*------------------ Large Screen ---------------------------------------------------------------------------*/
+@media (min-width:1200px)
+{
+    
+}
